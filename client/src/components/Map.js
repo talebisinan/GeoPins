@@ -10,33 +10,33 @@ const Map = ({ classes }) => {
 
 const styles = {
   root: {
-    display: "flex"
+    display: "flex",
   },
   rootMobile: {
     display: "flex",
-    flexDirection: "column-reverse"
+    flexDirection: "column-reverse",
   },
   navigationControl: {
     position: "absolute",
     top: 0,
     left: 0,
-    margin: "1em"
+    margin: "1em",
   },
   deleteIcon: {
-    color: "red"
+    color: "red",
   },
   popupImage: {
     padding: "0.4em",
     height: 200,
     width: 200,
-    objectFit: "cover"
+    objectFit: "cover",
   },
   popupTab: {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    flexDirection: "column"
-  }
+    flexDirection: "column",
+  },
 };
 
 export default withStyles(styles)(Map);
